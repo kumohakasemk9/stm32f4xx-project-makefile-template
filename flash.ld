@@ -17,5 +17,5 @@ SECTIONS {
 		*(.bss);
 		*(.bss.*);
 		*(COMMON);
-	}
+	} >RAM
 }
