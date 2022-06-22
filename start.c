@@ -1,6 +1,6 @@
 /*
 Copyright (C) 2022 kumohakase (license: https://creativecommons.org/licenses/by/2.5/)
-Program loader for stm32 uart bootloader protocol (Load to RAM)
+STM32F4xx vector table and reset handler
 Please consider supporting me using kofi.com https://ko-fi.com/kumohakase
 */
 
