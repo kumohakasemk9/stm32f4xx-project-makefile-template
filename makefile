@@ -1,3 +1,7 @@
+# Copyright (C) 2022 kumohakase (license: https://creativecommons.org/licenses/by/2.5/)
+# Program loader for stm32 uart bootloader protocol (Load to RAM)
+# Please consider supporting me using kofi.com https://ko-fi.com/kumohakase
+
 CC = arm-none-eabi-gcc
 CFLAGS = -mcpu=cortex-m4 -g3 -mfpu=fpv4-sp-d16 -I /home/owner/harddisk_home/programs/STM32F4-Discovery_FW_V1.1.0/Libraries/CMSIS/ST/STM32F4xx/Include -I /home/owner/harddisk_home/programs/CMSIS_5-5.7.0/CMSIS/Core/Include
 OBJS = main.o start.o
