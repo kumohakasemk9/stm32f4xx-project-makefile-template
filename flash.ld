@@ -13,6 +13,7 @@ SECTIONS {
 	.text : {
 		*(.vects);
 		*(.text*);
+		*(.ARM.exidx.text*);
 		*(.rodata*);
 	} >RAM
 	.data : {
