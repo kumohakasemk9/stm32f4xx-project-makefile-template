@@ -3,7 +3,7 @@ Copyright (C) 2022 kumohakase (license: https://creativecommons.org/licenses/by/
 STM32F4xx section address definition file (ldscript)
 Please consider supporting me using kofi.com https://ko-fi.com/kumohakase
 */
-
+ENTRY(Reset_Handler);
 MEMORY {
 	RAM (wx) : ORIGIN = 0x20002000, LENGTH = 64K
 }
