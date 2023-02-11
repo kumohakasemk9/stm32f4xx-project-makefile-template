@@ -12,7 +12,8 @@ Or you can extract STM32F4 firmware package from ST, it includes both.
 
 Usage
 =====
-You have to adjust flash.ld's start address of RAM, according to  
+At first, you need to prepare missing CMSIS and stm32f4xx.h.  
+Then you have to adjust flash.ld's start address of RAM, according to  
 your program location.. (Ex: 0x08000000 for ROM, depends.)  
 Then you have to correct CMSIS path in makefile, stm32f4xx.h's path too.   
 And you can modify main.c and then make (generates elf file and srec file) , enjoy!  
